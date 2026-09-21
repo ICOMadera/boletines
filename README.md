@@ -4,8 +4,13 @@ This repository keeps the **Boletín Costa Rica Forestal** cards on ICOMadera's
 Recursos page up to date automatically. Nobody has to edit the website.
 
 **Owner:** ICOMadera. This is organisation infrastructure, not any one
-person's — it should stay in the ICOMadera GitHub organisation as web
+person's — it lives in the ICOMadera GitHub account and stays there as web
 administrators change.
+
+If the board ever wants several people to have independent access, convert
+this to a GitHub *organisation* and transfer the repository into it: an
+organisation can have multiple owners signing in as themselves, instead of
+one shared account password.
 
 ---
 
@@ -81,8 +86,8 @@ stay visible if the file cannot be reached, so the page is never empty.
 The one line that might ever need changing is near the bottom of the block:
 
 ```js
-var ORG  = "ICOMADERA-ORG";   // ICOMadera's GitHub organisation
-var REPO = "boletines";       // this repository's name
+var ORG  = "ICOMadera";   // ICOMadera's GitHub account
+var REPO = "boletines";   // this repository's name
 ```
 
 If you do edit the block: open the .html file, select all, copy, then in the
