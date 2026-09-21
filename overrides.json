@@ -1,0 +1,17 @@
+{
+  "_readme": [
+    "Pin a title here when the automatic one comes out wrong.",
+    "The key is the boletin label exactly as the CFMI site writes it: \"34-2026\".",
+    "Edit this file on github.com (pencil icon), commit, then run the",
+    "'Refresh boletines' workflow from the Actions tab. The website picks up",
+    "the change within a few minutes.",
+    "Entries for old boletines do no harm - they are simply ignored once the",
+    "boletin drops out of the newest four."
+  ],
+  "titles": {
+    "34-2026": "Conocer la madera para construir confianza: ciencia, normativa y nuevas oportunidades para el sector forestal",
+    "33-2026": "Del respaldo internacional a la inversión: la CFMI impulsa la consolidación financiera de la cadena forestal de Costa Rica",
+    "32-2026": "De la experiencia internacional al desarrollo de una madera estructural segura, competitiva y adaptada a Costa Rica",
+    "31-2026": "Congreso de Ciudades Sostenibles - CICS 2026: sostenibilidad, innovación, resiliencia y nuevas oportunidades para la construcción con madera"
+  }
+}
