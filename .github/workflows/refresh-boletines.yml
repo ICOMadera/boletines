@@ -1,0 +1,52 @@
+name: Refresh boletines
+
+# Runs every Monday at 13:00 UTC (7:00 a.m. in Costa Rica) and commits
+# boletines.json only if the newest four boletines actually changed.
+#
+# "Run workflow" on the Actions tab triggers it by hand at any time.
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-boletines
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests "pdfminer.six==20240706"
+
+      - name: Run the offline checks
+        run: python scripts/test_parser.py
+
+      - name: Build boletines.json
+        run: python scripts/build_boletines.py
+
+      - name: Commit if anything changed
+        run: |
+          if [ -z "$(git status --porcelain boletines.json)" ]; then
+            echo "No new boletin this week - nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add boletines.json
+          git commit -m "Refresh boletines ($(date -u +%Y-%m-%d))"
+          git push
+          echo "Published an updated boletines.json."
