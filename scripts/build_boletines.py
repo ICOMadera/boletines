@@ -32,7 +32,7 @@ PDF_PREFIX = "https://www.camaraforestal.org/_files/ugd/"
 
 HOW_MANY = 4
 TIMEOUT = 60
-UA = "ICOMadera-boletines-bot/1.0 (+https://github.com/ICOMADERA_ORG/boletines)"
+UA = "ICOMadera-boletines-bot/1.0 (+https://github.com/ICOMadera/boletines)"
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "boletines.json"
