@@ -7,10 +7,27 @@ Recursos page up to date automatically. Nobody has to edit the website.
 person's — it lives in the ICOMadera GitHub account and stays there as web
 administrators change.
 
-If the board ever wants several people to have independent access, convert
-this to a GitHub *organisation* and transfer the repository into it: an
-organisation can have multiple owners signing in as themselves, instead of
-one shared account password.
+### PENDING — convert to a GitHub organisation
+
+Not done yet. `ICOMadera` is currently a single personal account, so access
+to it means sharing one password. That is the piece that does not age well
+across a change of web administrator.
+
+When the board is ready:
+
+1. From the ICOMadera account: **Settings → Organizations → New organization**
+   (the free plan is enough).
+2. Add at least one other board member as an **owner**, so access never rests
+   on one person.
+3. Transfer this repository into the organisation:
+   **Settings → General → Transfer ownership**.
+4. In the Squarespace Recursos code block, change `var ORG = "ICOMadera"` to
+   the organisation's name, and paste the block once more.
+5. Update the same name in the weekly watchdog task, which reads
+   `raw.githubusercontent.com/<ORG>/boletines/main/boletines.json`.
+
+Step 4 is the only one that touches the website, and nothing breaks in the
+meantime — the current setup keeps working until the transfer happens.
 
 ---
 
