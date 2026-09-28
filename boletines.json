@@ -1,7 +1,13 @@
 {
-  "updated": "2026-09-21T00:00:00Z",
+  "updated": "2026-09-28T13:13:23Z",
   "source": "https://www.camaraforestal.org/bolet%C3%ADn-informativo",
   "boletines": [
+    {
+      "n": 35,
+      "year": 2026,
+      "title": "Madera que construye futuro Liderazgo, conocimiento y nuevas",
+      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_02d41da34f934e60ae218fdcc61369aa.pdf"
+    },
     {
       "n": 34,
       "year": 2026,
@@ -19,12 +25,6 @@
       "year": 2026,
       "title": "De la experiencia internacional al desarrollo de una madera estructural segura, competitiva y adaptada a Costa Rica",
       "url": "https://www.camaraforestal.org/_files/ugd/9f1379_6d8b464b90bf4b9ba1c2ba44393993a5.pdf"
-    },
-    {
-      "n": 31,
-      "year": 2026,
-      "title": "Congreso de Ciudades Sostenibles - CICS 2026: sostenibilidad, innovación, resiliencia y nuevas oportunidades para la construcción con madera",
-      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_0076a86c2e254ff8a14856da0ea8a779.pdf"
     }
   ]
 }
