@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-28T21:10:31Z",
+  "updated": "2026-11-02T22:11:16Z",
   "source": "https://www.camaraforestal.org/bolet%C3%ADn-informativo",
   "boletines": [
+    {
+      "n": 38,
+      "year": 2026,
+      "title": "Construir con madera: Nueva Estrategia enfocada en la Vivienda en Europa",
+      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_7b00cd302adf47a3925d235f60d29ede.pdf"
+    },
+    {
+      "n": 37,
+      "year": 2026,
+      "title": "Del pino a la teca: avanzan los ensayos que fortalecerán la construcción con",
+      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_9ee3e90272e5450cb42a5f94100f25f9.pdf"
+    },
+    {
+      "n": 36,
+      "year": 2026,
+      "title": "02 de octubre de 2026",
+      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_3729f10577f942c0bca7a37811166779.pdf"
+    },
     {
       "n": 35,
       "year": 2026,
       "title": "Madera que construye futuro: liderazgo, conocimiento y nuevas oportunidades para Costa Rica",
       "url": "https://www.camaraforestal.org/_files/ugd/9f1379_02d41da34f934e60ae218fdcc61369aa.pdf"
-    },
-    {
-      "n": 34,
-      "year": 2026,
-      "title": "Conocer la madera para construir confianza: ciencia, normativa y nuevas oportunidades para el sector forestal",
-      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_4bf27a40bb57467d8f76c552624e85a8.pdf"
-    },
-    {
-      "n": 33,
-      "year": 2026,
-      "title": "Del respaldo internacional a la inversión: la CFMI impulsa la consolidación financiera de la cadena forestal de Costa Rica",
-      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_63b48ee0d6e244d5bbbf489925339ae3.pdf"
-    },
-    {
-      "n": 32,
-      "year": 2026,
-      "title": "De la experiencia internacional al desarrollo de una madera estructural segura, competitiva y adaptada a Costa Rica",
-      "url": "https://www.camaraforestal.org/_files/ugd/9f1379_6d8b464b90bf4b9ba1c2ba44393993a5.pdf"
     }
   ]
 }
